@@ -96,3 +96,26 @@ a:hover {
 
 
 }
+
+
+.welk_link {
+}
+
+.welk_link:hover{
+    opacity: 1;
+}
+
+
+.welc_btn {
+width: 324px;
+height: 94px;
+background: #5C6482;
+border-radius: 51px;
+font-family: 'Bellota';
+font-weight: 700;
+font-size: 34px;
+color: #FFFFFF;
+}
+.welc_btn:hover{
+    
+}
