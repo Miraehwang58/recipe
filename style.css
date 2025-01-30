@@ -116,6 +116,7 @@ a:hover {
 }
 
 
+<<<<<<< HEAD
 /* Страница со списном рецептов */
 .recipe_section {
     margin-top: 140px;
@@ -158,3 +159,29 @@ a:hover {
     height: 362px;
 }
 
+=======
+}
+
+
+.welk_link {
+}
+
+.welk_link:hover{
+    opacity: 1;
+}
+
+
+.welc_btn {
+width: 324px;
+height: 94px;
+background: #5C6482;
+border-radius: 51px;
+font-family: 'Bellota';
+font-weight: 700;
+font-size: 34px;
+color: #FFFFFF;
+}
+.welc_btn:hover{
+    
+}
+>>>>>>> 5b2df0316abb797c6f47831aad196d47e91fb8f3
