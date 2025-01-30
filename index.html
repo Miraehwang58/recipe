@@ -15,13 +15,13 @@
         <div class="container">
             <nav class="header__links">
                 <a href="#" class="heder__link">Главная</a>
-                <a href="#" class="heder__link">Рецепты</a>
-                <a href="#" class="heder__link">Советы по готовке</a>
+                <a href="#recipe_page" class="heder__link">Рецепты</a>
+                <a href="#main_page" class="heder__link">Советы по готовке</a>
             </nav>
             <a href=""><img src="/Photo/Logo.svg" alt="logo" class="logo"></a>
         </div>
     </header>
-    <main class="main">
+    <main id="main_page" class="mainn">
         <section class="welc_page">
             <img src="/Photo/welc_img.png" alt="" class="welc_img">
             <div class="container">
@@ -30,9 +30,29 @@
                     пошаговыми инструкциями и доступными ингредиентами готовить станет легко и приятно.
                     <br> Присоединяйтесь к нам и начните свое кулинарное путешествие!
                 </p>
+                <a href="#recipe_page" class="welk_link"><button class="welc_btn">Читать</button></a>
             </div>
         </section>
     </main>
+    <section class="recipe_section" id="recipe_page">
+        <div class="container">
+            <h2 class="recipe_title">Рецепты</h2>
+            <div class="recipe_desc">
+                <ul class="recipe_list">
+                    <a href="#breakfast_page" class="recipe_link">
+                        <li>Завтрак</li>
+                    </a>
+                    <a href="#" class="recipe_link">
+                        <li>Обед</li>
+                    </a>
+                    <a href="#" class="recipe_link">
+                        <li>Ужин</li>
+                    </a>
+                </ul>
+                <img src="/Photo/food.png" alt="food_on_recipe_page" class="recipe_imgg">
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

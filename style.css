@@ -94,3 +94,67 @@ a:hover {
     font-size: 36px;
     color: #30395B;
 }
+
+/* .welk_link {}
+
+.welk_link:hover {}
+ */
+
+ .welc_btn {
+    width: 324px;
+    height: 94px;
+    background: #5C6482;
+    border-radius: 51px;
+    font-family: 'Bellota';
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFFFFF;
+}
+
+.welc_btn:hover {
+    background: linear-gradient(90deg, #5C6482 0%, #373B4D 52%, #232734 100%);
+}
+
+
+/* Страница со списном рецептов */
+.recipe_section {
+    margin-top: 140px;
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe_title {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 55px;
+    color: #30395B;
+}
+
+.recipe_desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/Photo/Rectangle\ 3.png);
+}
+
+.recipe_list {
+    font-weight: 400;
+    font-size: 36px;
+    color: #30395B;
+    margin-left: 170px;
+}
+
+.recipe_link {
+    text-decoration: none;
+    color: #30395B;
+}
+
+.recipe_food {
+    width: 674px;
+    height: 362px;
+}
+
