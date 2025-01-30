@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 6000px;
     background-color: blanchedalmond;
+    height: 100vh;
 }
 
 .container {
@@ -18,6 +19,7 @@ body {
     padding: 0 15px;
 }
 
+/* Меню */
 .header {
     background-color: #DD837C;
     padding: 15px 0;
@@ -49,6 +51,7 @@ body {
 }
 
 a {
+    text-decoration: none;
     transition: all 0.3s ease;
 }
 
@@ -56,18 +59,18 @@ a:hover {
     color: blanchedalmond;
 }
 
-
-
-.main {}
-
+/* Главная */
 .welc_page {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1520px;
     display: flex;
     margin-top: 70px;
 }
 
 .welc_page .container {
-    display:flex;
-    align-items: start;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     margin-right: 20px;
 }
@@ -97,25 +100,63 @@ a:hover {
 
 }
 
-
-.welk_link {
-}
-
-.welk_link:hover{
-    opacity: 1;
-}
-
-
 .welc_btn {
-width: 324px;
-height: 94px;
-background: #5C6482;
-border-radius: 51px;
-font-family: 'Bellota';
-font-weight: 700;
-font-size: 34px;
-color: #FFFFFF;
+    width: 324px;
+    height: 94px;
+    background: #5C6482;
+    border-radius: 51px;
+    font-family: 'Bellota';
+    font-weight: 700;
+    font-size: 34px;
+    color: #FFFFFF;
 }
-.welc_btn:hover{
-    
+
+.welc_btn:hover {
+    background: linear-gradient(90deg, #5C6482 0%, #373B4D 52%, #232734 100%);
 }
+
+
+
+
+/* Страница со списном рецептов */
+.recipe_section {
+    margin-top: 140px;
+    max-width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe_title {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 55px;
+    color: #30395B;
+}
+
+.recipe_desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/Photo/Rectangle\ 3.png);
+}
+
+.recipe_list {
+    font-weight: 400;
+    font-size: 36px;
+    color: #30395B;
+    margin-left: 170px;
+}
+
+.recipe_link {
+    text-decoration: none;
+    color: #30395B;
+}
+
+.recipe_food {
+    width: 674px;
+    height: 362px;
+}
+
